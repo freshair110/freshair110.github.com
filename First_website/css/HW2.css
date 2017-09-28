@@ -1,0 +1,13 @@
+.Galary {
+	border: 1px solid black;
+	border-color: white;
+	border-radius: 10px;
+	width: 100%;
+	background: #151414;
+	text-align: center;
+}
+
+.galary_img {
+	width:100px; 
+	height: 150px;
+}

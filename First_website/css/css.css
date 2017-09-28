@@ -1,0 +1,215 @@
+  body {
+      font: 10pt Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
+      background-image: url('../img/background.jpg') ;
+      background-size: 100%;
+      
+     }
+   .main_nav-list {
+    max-width: 450px; /* Ширина слоя */
+    /* margin: 0 auto; 
+     */margin-left: 370px;  
+    margin-bottom: 0px;  
+    list-style-type: none;
+    overflow: hidden;
+    
+  }
+  .main_nav-item  {
+      float: left;
+      border-right:1px solid #bbb;
+      background-color: #151414;
+      border-radius: 8px 8px 0 0;
+  }
+  .main_nav-link {
+      display: block;
+      color: #76749b;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      margin: 0 auto;
+  }
+  .main_nav-link:hover:not(.active) {
+      color: #fffdb3;
+  }
+  /* .active {
+      background-color: #4CAF50;
+  } */
+  h2 {
+    font-size: 1.1em; /* Размер шрифта */
+    color: white; /* Цвет текста */
+    margin-top: 2px; /* Отступ сверху */
+
+  }
+   
+   .container {
+    width: 800px; /* Ширина слоя */
+    margin: 0 auto; /* Выравнивание по центру */
+    border-radius: 8px ;
+   }
+   aside {
+    display: block;
+    width: 25%; /* Ширина слоя */
+    padding: 5px; /* Отступы вокруг текста */
+    border-radius: 8px 0 0 0;
+    background: #272727;
+    float: left; 
+   }
+   article { 
+    display: block;
+    margin-left: 300px; /* Отступ слева */
+    padding: 10px; /* Поля вокруг текста */
+    padding-bottom: 23px; /* Поля вокруг текста */
+    background: #fff; /* Цвет фона правой колонки */
+    border-radius: 0 8px 0 0;
+    width: 680px; /* Ширина слоя */
+    list-style-type: none; /* Убираем маркеры */
+   }
+   footer {
+    background: #151414; /* Цвет фона подвала */
+    border-radius: 0 0 8px 8px;
+    color: #fff; /* Цвет текста */
+    padding: 5px; /* Отступы вокруг текста */
+    clear: left; /* Отменяем действие float */
+    width: 790px; /* Ширина слоя */
+    margin: 0 auto; /* Выравнивание по центру */
+   }
+   .hr_block {
+    border-bottom: 1px solid #848480;
+    border-top: 1px solid #3f413f;
+    position: relative;
+}
+   /* .leftblok1 {
+    /* position: relative;
+    width: 80px;
+    float: left;
+    padding-top: 15px;
+} */ 
+   tr a {
+    font-size: 12px ;
+    color: white; /* Цвет ссылок */
+   }
+   
+  tr a:active {
+    color: #ffff00; /* Цвет активных ссылок */
+   }
+  .leftblock1 {
+    width: 85px;
+    border: 0px;
+    float: left; 
+    margin-bottom: 10px;
+  } 
+  .leftblock2 {
+    width: 85px;
+    border: 0px;
+    float: right;
+    margin-bottom: 0px; 
+  } 
+  .leftblock3 {
+    display: block;
+    width: 85px;
+    border: 0px;
+    float: left; 
+    margin-top: 10px;
+    align-items: center;
+  } 
+  .leftblock4 {
+    display: block;
+    width: 85px;
+    border: 0px;
+    float: left; 
+    margin-top: 10px;
+    margin-left: 20px;
+    align-items: center;
+  } 
+   a {
+    text-align: center;
+    font-size: 12px ;
+    color: white; /* Цвет ссылок */
+   }
+   
+   a:active {
+    color: #ffff00; /* Цвет активных ссылок */
+   }
+  h3 {
+    font-size: 13px;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(243, 243, 243);
+    text-shadow: 1px 1px rgb(0, 0, 0);
+  } 
+
+  .public__card { 
+      display: block;
+      margin-left: 211px; 
+      padding: 10px; 
+      padding-top: 3px;
+      padding-bottom: 3px; 
+      background: #272727; 
+      border-radius: 0 8px 0 0;
+      width: 570px;
+    }  
+   
+   .public__card-tittle {
+      background: #151414; 
+      border-radius: 8px 8px 0 0;
+      border-bottom: dotted;
+      border-bottom-color: #848484;
+      padding: 8px; 
+      margin: 0;
+    }
+
+   .public__card-tittle-link {
+      color: #fffdb3;
+      text-decoration: none;
+    }
+
+   .public__img-wrap {
+      float:left;
+      margin: 10px 10px 10px 10px;
+      width: 200px; 
+    }
+    
+   .public__img-desc {
+      font-style: italic; 
+    }
+   
+   .public__card-desc-wrap {
+      background: #151414;
+      height: 350px; 
+    }
+
+    .public__card-main-desc {
+      margin: 0;
+      color: #848484;
+      padding-top: 5px;
+      padding-right: 3px;
+    }
+
+   .public__card-option {
+      line-height: 2px;
+      color: white;
+      padding: 5px;
+    }
+
+   .public__card-option-tittle {
+      color: #fffdb3;
+    }
+
+   .public__card-footer {
+      background: #151414; 
+      border-radius: 0 0 8px 8px;
+      padding: 5px; 
+      margin: 0 auto; 
+      border-top: dotted;
+      border-top-color: #848484;
+      clear: none;
+      width: 568px;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+
+   .public__card-footer-data {
+      margin-top: 0px;
+      margin-bottom: 0px;
+      text-align: right;
+      color: #fffdb3;
+    }
