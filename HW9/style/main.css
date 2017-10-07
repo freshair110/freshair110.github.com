@@ -1,0 +1,194 @@
+
+/*-- adjustment settings
+============================*/
+
+* {
+	box-sizing: border-box;
+}
+
+
+
+/* input settings */
+/* *::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+} */
+
+
+html, body {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+}
+
+body {
+	background: #fff;
+}
+
+.maincontent {
+	flex-grow: 1;
+}
+
+.container {
+	max-width: 1228px;
+	padding: 0 15px;
+	position: relative;
+	margin: 0 auto;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+.hidden {
+	display: none;
+}
+
+.main-wrap {
+	width: 100%;
+	height: 200vh;
+	background-color: #eeeeee;
+}
+
+
+/*-- header
+============================*/
+
+.section-one{
+	font-size: 0;
+	width: 100%;
+	margin-top: 1.5625rem;
+}
+.column{
+	width: 50%;
+	display: inline-block;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.column_left{
+	font-size: 3rem;
+	font-weight: 900;
+}
+
+.column_rigth{
+	display: inline-block;
+	font-size: 1.125rem;
+	font-weight: 400;
+
+}
+	.column_right_list{
+		text-align: right;
+	}
+
+		.column_right_list_item{
+			display: inline-block;
+		}
+
+			.column_right_list_item:nth-child(3){
+				padding-left: 2.3125rem;
+			}
+			.column_right_list_item:nth-child(2){
+				padding-left: 3.25rem;
+			}
+
+.section-two{
+	display: inline-block;
+	width: 1096px;
+	font-size: 0;
+
+}
+
+	.figure{
+		margin: 0;
+		font-size: 16px;
+	}
+		.figure_img{
+			width: 379px;
+			height: 491px;
+			float: right;
+
+		}
+		.figure_desc{
+			width: 615px;
+			text-align: right;
+		}
+			.figure_desc_title{
+				font-family: 'Raleway', sans-serif;
+				font-size: 9.375rem;
+				font-weight: 900;
+				word-spacing: 1.5625rem;
+				line-height: 9.375rem;
+				word-wrap:break-word;
+				position: relative;
+				right: 22px;
+				margin-bottom: 35px;
+			}
+			.figure_desc_text{
+				font-family:  'Roboto', sans-serif;
+				font-size: 1.5rem;
+				line-height: 2.25rem;
+			}
+			.main_text{
+				font-weight: 300;
+			}
+			.bottom_text{
+				font-family: 'Raleway', sans-serif;
+				font-weight: 700;
+				color: #e10011;
+				display: block;
+			}
+
+.three-dots{
+	text-align: center;
+	font-size: 0;
+
+}
+	.dot{
+		display: inline-block;
+		width: 9px;
+		height: 9px;
+		background-color: black;
+		border-radius: 50%;
+		margin: 45px 5px;
+
+	}
+
+/* /////////////////////////// HEADER */
+
+
+
+/* MAIN CONTENT !!!!!!!!!!!!!!!!!!!!!!!! */
+
+.content-wrap{
+	background-color: #fff;
+}
+
+
+
+/* /////////////////////// MAIN CONTENT */
